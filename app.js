@@ -14,7 +14,7 @@ app.get("/",(req,res)=>{
 
 app.use(express.json());
 app.use(cookiParser());
-app.use(cors("http://localhost:3000"));
+app.use(cors("https://cheerful-longma-32ba37.netlify.app"));
 app.use(router);
 
 
